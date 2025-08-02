@@ -1,0 +1,46 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.link-input-panel input,
+.link-input-panel button {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.link-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.link-table th,
+.link-table td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: left;
+}
+
+.search-box {
+  margin: 10px 0;
+  padding: 6px;
+  width: 100%;
+}
+
+.log-box {
+  background-color: #eee;
+  padding: 10px;
+  overflow-x: auto;
+  max-height: 200px;
+}
